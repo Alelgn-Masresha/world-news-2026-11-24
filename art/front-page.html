@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World news, Tuesday 24 November 2026</title>
+<style>
+  :root {
+    --paper: #f3eee3;
+    --ink: #15171c;
+    --muted: #464b55;
+    --red: #b3261e;
+    --conflict: #b3261e;
+    --space: #1f5fa8;
+    --law: #5b3a8c;
+    --econ: #1d7a4a;
+    --migration: #0b6e8a;
+    --sport: #b86200;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1024px; height: 1024px; overflow: hidden; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Bahnschrift", "Segoe UI", sans-serif;
+    font-stretch: condensed;
+    padding: 12px 16px 0;
+  }
+
+  header { text-align: center; padding-bottom: 6px; border-bottom: 5px double var(--ink); }
+  .masthead { font-size: 20px; font-weight: 600; letter-spacing: 7px; color: var(--muted); }
+  .date { font-size: 72px; font-weight: 700; line-height: 1; letter-spacing: 1px; margin-top: 3px; }
+  .date b { color: var(--red); }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 292px 246px 246px;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .story { background: #fff; border: 1px solid #d5cfc2; display: flex; flex-direction: column; overflow: hidden; }
+  .lead { grid-column: span 2; }
+  .tag { color: #fff; font-size: 17px; font-weight: 700; letter-spacing: 1.5px; padding: 4px 10px 3px; white-space: nowrap; }
+  .story svg { display: block; width: 100%; height: 118px; }
+  .lead svg { height: 162px; }
+  .text { padding: 7px 10px 0; }
+  h2 { font-size: 27px; font-weight: 700; line-height: 1.04; }
+  .lead h2 { font-size: 38px; line-height: 1.02; }
+  p { font-size: 17px; line-height: 1.15; color: var(--muted); margin-top: 4px; }
+  .lead p { font-size: 19px; }
+
+  .conflict .tag { background: var(--conflict); }
+  .space .tag { background: var(--space); }
+  .law .tag { background: var(--law); }
+  .econ .tag { background: var(--econ); }
+  .migration .tag { background: var(--migration); }
+  .sport .tag { background: var(--sport); }
+
+  .ticker {
+    margin-top: 10px; background: var(--ink); color: #fff; font-size: 18px; line-height: 1.2;
+    padding: 6px 12px; display: flex; gap: 12px; align-items: center;
+  }
+  .ticker b { color: #ffcf5c; letter-spacing: 1px; white-space: nowrap; }
+  footer { font-size: 13px; color: var(--muted); text-align: center; padding-top: 5px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <polygon id="star" points="0,-1 0.2245,-0.309 0.951,-0.309 0.363,0.118 0.588,0.809 0,0.382 -0.588,0.809 -0.363,0.118 -0.951,-0.309 -0.2245,-0.309"/>
+    <path id="drone" d="M0,-16 L22,12 L0,5 L-22,12 Z"/>
+    <g id="burst">
+      <polygon points="0,-18 5,-6 17,-9 8,1 16,12 2,7 -4,18 -7,5 -18,4 -8,-3" fill="#ffb300"/>
+      <circle r="6" fill="#fff6d0"/>
+    </g>
+  </defs>
+</svg>
+
+<header>
+  <div class="masthead">THE WORLD IN ONE PICTURE</div>
+  <div class="date">TUESDAY <b>24 NOVEMBER</b> 2026</div>
+</header>
+
+<main>
+
+  <!-- LEAD: Huawei convicted -->
+  <section class="story law lead">
+    <div class="tag">LEAD · LAW &amp; TECH · USA / CHINA</div>
+    <svg viewBox="0 0 650 162" preserveAspectRatio="xMidYMid slice">
+      <rect width="650" height="162" fill="#ece6f5"/>
+      <!-- courthouse -->
+      <g fill="#7c6a9e">
+        <path d="M18,44 L108,14 L198,44 Z"/>
+        <rect x="24" y="46" width="168" height="8"/>
+        <rect x="32" y="58" width="14" height="74"/><rect x="62" y="58" width="14" height="74"/>
+        <rect x="92" y="58" width="14" height="74"/><rect x="122" y="58" width="14" height="74"/>
+        <rect x="152" y="58" width="14" height="74"/><rect x="176" y="58" width="12" height="74"/>
+        <rect x="16" y="132" width="184" height="12"/>
+      </g>
+      <!-- gavel -->
+      <g transform="translate(262,92) rotate(-30)">
+        <rect x="-4" y="-3" width="96" height="11" rx="5" fill="#7a4a24"/>
+        <rect x="-32" y="-20" width="34" height="46" rx="6" fill="#5a3418"/>
+        <rect x="-37" y="-12" width="44" height="7" fill="#c8a165"/>
+        <rect x="-37" y="14" width="44" height="7" fill="#c8a165"/>
+      </g>
+      <rect x="208" y="130" width="84" height="15" rx="4" fill="#5a3418"/>
+      <!-- verdict card -->
+      <g transform="translate(330,22)">
+        <rect width="150" height="118" rx="8" fill="#fff" stroke="#5b3a8c" stroke-width="3"/>
+        <text x="75" y="46" text-anchor="middle" font-size="36" font-weight="700" fill="#b3261e">GUILTY</text>
+        <text x="75" y="80" text-anchor="middle" font-size="22" font-weight="700" fill="#5b3a8c">10 of 12</text>
+        <text x="75" y="104" text-anchor="middle" font-size="17" fill="#464b55">counts</text>
+      </g>
+      <!-- telecom tower -->
+      <g stroke="#3a3f47" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M560,150 L582,40 L604,150"/>
+        <path d="M566,120 L598,120 M570,92 L594,92 M575,66 L589,66"/>
+        <path d="M566,120 L594,92 L575,66 M598,120 L570,92 L589,66"/>
+      </g>
+      <rect x="570" y="40" width="24" height="10" fill="#3a3f47"/>
+      <g stroke="#5b3a8c" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M612,36 a24,24 0 0 1 0,30"/><path d="M624,26 a38,38 0 0 1 0,50"/>
+        <path d="M552,36 a24,24 0 0 0 0,30"/><path d="M540,26 a38,38 0 0 0 0,50"/>
+      </g>
+      <!-- flags -->
+      <g transform="translate(500,104)">
+        <rect width="42" height="28" fill="#fff" stroke="#c9c2d6"/>
+        <g fill="#b3261e"><rect y="0" width="42" height="4"/><rect y="8" width="42" height="4"/><rect y="16" width="42" height="4"/><rect y="24" width="42" height="4"/></g>
+        <rect width="18" height="16" fill="#2a3d8f"/>
+      </g>
+      <g transform="translate(500,138)">
+        <rect width="42" height="20" fill="#de2910"/>
+        <use href="#star" transform="translate(8,7) scale(5)" fill="#ffde00"/>
+      </g>
+    </svg>
+    <div class="text">
+      <h2>US jury convicts Huawei on 10 of 12 counts</h2>
+      <p>Bank fraud and sanctions breaches over its Iran business, and a plot to steal trade secrets; cleared of racketeering. Huawei calls it meritless and will appeal.</p>
+    </div>
+  </section>
+
+  <!-- Riyadh tower hit -->
+  <section class="story conflict">
+    <div class="tag">CONFLICT · SAUDI ARABIA</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#e9a15c"/><stop offset="1" stop-color="#f8dcb4"/>
+        </linearGradient>
+      </defs>
+      <rect width="320" height="118" fill="url(#dusk)"/>
+      <!-- smoke from the strike -->
+      <g fill="#5d6169" opacity="0.85">
+        <circle cx="196" cy="22" r="12"/><circle cx="214" cy="12" r="13"/><circle cx="236" cy="8" r="11"/>
+      </g>
+      <!-- skyline -->
+      <g fill="#3b3f4a">
+        <rect x="20" y="70" width="30" height="48"/><rect x="56" y="56" width="26" height="62"/>
+        <rect x="88" y="76" width="34" height="42"/><rect x="222" y="62" width="30" height="56"/>
+        <rect x="258" y="80" width="40" height="38"/><rect x="134" y="66" width="22" height="52"/>
+      </g>
+      <!-- the tallest tower -->
+      <path d="M168,118 L168,30 L184,14 L200,30 L200,118 Z" fill="#23262e"/>
+      <g fill="#f2c27f" opacity="0.8">
+        <rect x="174" y="52" width="6" height="4"/><rect x="188" y="52" width="6" height="4"/>
+        <rect x="174" y="70" width="6" height="4"/><rect x="188" y="70" width="6" height="4"/>
+        <rect x="174" y="88" width="6" height="4"/><rect x="188" y="88" width="6" height="4"/>
+      </g>
+      <use href="#burst" transform="translate(194,36)"/>
+      <use href="#drone" transform="translate(92,26) rotate(100) scale(0.9)" fill="#1b1b1b"/>
+      <path d="M40,18 L80,24" stroke="#1b1b1b" stroke-width="1.5" stroke-dasharray="4 4"/>
+    </svg>
+    <div class="text">
+      <h2>Houthi drone hits Riyadh's tallest tower; 11 hurt</h2>
+      <p>Saudi wealth fund's headquarters hit for the second time in a week</p>
+    </div>
+  </section>
+
+  <!-- Shenzhou-24 -->
+  <section class="story space">
+    <div class="tag">SPACE · CHINA / PAKISTAN</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="320" height="118" fill="#13244a"/>
+      <g fill="#fff" opacity="0.8">
+        <circle cx="112" cy="14" r="1.4"/><circle cx="206" cy="22" r="1.2"/><circle cx="126" cy="62" r="1"/>
+        <circle cx="194" cy="70" r="1.3"/><circle cx="104" cy="96" r="1"/><circle cx="214" cy="100" r="1.1"/>
+      </g>
+      <g fill="#d9dde6"><circle cx="142" cy="114" r="13"/><circle cx="160" cy="118" r="15"/><circle cx="178" cy="114" r="13"/></g>
+      <path d="M150,86 Q160,122 170,86 Z" fill="#ff8a00"/>
+      <path d="M154,86 Q160,108 166,86 Z" fill="#ffe066"/>
+      <path d="M141,52 L145,42 L149,52 L149,86 L141,86 Z" fill="#e8e8e8"/>
+      <path d="M171,52 L175,42 L179,52 L179,86 L171,86 Z" fill="#e8e8e8"/>
+      <path d="M151,26 L160,6 L169,26 L169,88 L151,88 Z" fill="#fafafa"/>
+      <rect x="151" y="34" width="18" height="5" fill="#c8102e"/>
+      <rect x="151" y="68" width="18" height="4" fill="#c8102e"/>
+      <g transform="translate(18,28)">
+        <rect width="66" height="44" fill="#01411c"/><rect width="17" height="44" fill="#fff"/>
+        <circle cx="43" cy="22" r="12.5" fill="#fff"/><circle cx="47" cy="19" r="11" fill="#01411c"/>
+        <use href="#star" transform="translate(51,17) scale(4.4) rotate(-35)" fill="#fff"/>
+      </g>
+      <g transform="translate(236,28)">
+        <rect width="66" height="44" fill="#de2910"/>
+        <use href="#star" transform="translate(12,12) scale(7)" fill="#ffde00"/>
+        <use href="#star" transform="translate(25,5) scale(2.2)" fill="#ffde00"/>
+        <use href="#star" transform="translate(29,10) scale(2.2)" fill="#ffde00"/>
+        <use href="#star" transform="translate(29,17) scale(2.2)" fill="#ffde00"/>
+        <use href="#star" transform="translate(25,22) scale(2.2)" fill="#ffde00"/>
+      </g>
+    </svg>
+    <div class="text">
+      <h2>Shenzhou-24 lifts off with Pakistan's first astronaut</h2>
+      <p>First foreign visitor to China's Tiangong station</p>
+    </div>
+  </section>
+
+  <!-- Zaporizhzhia -->
+  <section class="story conflict">
+    <div class="tag">WAR · UKRAINE</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="320" height="118" fill="#262a3d"/>
+      <g fill="#4b4f5e"><circle cx="150" cy="26" r="20"/><circle cx="176" cy="18" r="18"/><circle cx="198" cy="26" r="15"/></g>
+      <!-- apartment block -->
+      <rect x="96" y="34" width="132" height="84" fill="#8c8f9a"/>
+      <g fill="#f2d48a">
+        <rect x="106" y="44" width="12" height="10"/><rect x="126" y="44" width="12" height="10"/>
+        <rect x="186" y="44" width="12" height="10"/><rect x="206" y="44" width="12" height="10"/>
+        <rect x="106" y="64" width="12" height="10"/><rect x="206" y="64" width="12" height="10"/>
+        <rect x="106" y="84" width="12" height="10"/><rect x="126" y="84" width="12" height="10"/>
+        <rect x="186" y="84" width="12" height="10"/><rect x="206" y="84" width="12" height="10"/>
+        <rect x="106" y="104" width="12" height="10"/><rect x="206" y="104" width="12" height="10"/>
+      </g>
+      <!-- blast hole and fire -->
+      <path d="M140,40 L150,52 L160,38 L172,54 L184,42 L188,76 L176,92 L150,88 L136,74 Z" fill="#14151c"/>
+      <path d="M146,86 Q152,60 160,74 Q166,52 174,72 Q180,62 182,86 Z" fill="#ff6a00"/>
+      <path d="M154,86 Q158,72 164,78 Q168,68 172,86 Z" fill="#ffd23f"/>
+      <!-- debris -->
+      <g fill="#5a5d66"><rect x="60" y="108" width="14" height="10"/><rect x="250" y="104" width="18" height="14"/><rect x="236" y="112" width="10" height="6"/></g>
+    </svg>
+    <div class="text">
+      <h2>Russian bomb hits Zaporizhzhia flats: 2 dead, 40 hurt</h2>
+      <p>Four children among the wounded</p>
+    </div>
+  </section>
+
+  <!-- Gaza -->
+  <section class="story conflict">
+    <div class="tag">CONFLICT · GAZA</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="320" height="118" fill="#e9dcc6"/>
+      <g fill="#6b6259" opacity="0.8"><circle cx="190" cy="34" r="20"/><circle cx="214" cy="22" r="18"/><circle cx="238" cy="30" r="15"/><circle cx="170" cy="50" r="14"/></g>
+      <!-- ruined blocks -->
+      <g fill="#b9aa92">
+        <path d="M14,118 L14,62 L30,56 L40,66 L52,58 L52,118 Z"/>
+        <path d="M62,118 L62,48 L84,40 L96,54 L96,118 Z"/>
+        <path d="M108,118 L108,74 L122,68 L140,80 L140,118 Z"/>
+        <path d="M232,118 L232,60 L248,70 L262,52 L278,60 L278,118 Z"/>
+        <path d="M288,118 L288,78 L306,72 L312,118 Z"/>
+      </g>
+      <g fill="#8f806b">
+        <rect x="70" y="66" width="8" height="8"/><rect x="82" y="80" width="8" height="8"/>
+        <rect x="240" y="78" width="8" height="8"/><rect x="258" y="90" width="8" height="8"/>
+      </g>
+      <use href="#burst" transform="translate(196,74) scale(1.3)"/>
+      <!-- rubble -->
+      <g fill="#a2937c"><circle cx="160" cy="114" r="10"/><circle cx="180" cy="116" r="8"/><circle cx="214" cy="114" r="11"/></g>
+    </svg>
+    <div class="text">
+      <h2>Israeli strike kills Hamas security chief in Gaza</h2>
+      <p>Naeem Abu Nahel among seven killed in strikes across the Strip</p>
+    </div>
+  </section>
+
+  <!-- Canary Islands -->
+  <section class="story migration">
+    <div class="tag">MIGRATION · SPAIN / AFRICA</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="320" height="118" fill="#cfe6ef"/>
+      <!-- island -->
+      <path d="M196,80 L232,34 L250,46 L262,30 L320,80 Z" fill="#7a6a58"/>
+      <path d="M226,42 L232,34 L240,42 Z" fill="#fff"/>
+      <rect y="78" width="320" height="40" fill="#1f6f9c"/>
+      <!-- crowded boat -->
+      <path d="M24,78 L170,78 L156,98 L38,98 Z" fill="#c75b2a"/>
+      <rect x="24" y="78" width="146" height="5" fill="#2d6a4f"/>
+      <g fill="#2b1d14">
+        <circle cx="40" cy="72" r="5.5"/><circle cx="54" cy="70" r="5.5"/><circle cx="68" cy="72" r="5.5"/><circle cx="82" cy="70" r="5.5"/>
+        <circle cx="96" cy="72" r="5.5"/><circle cx="110" cy="70" r="5.5"/><circle cx="124" cy="72" r="5.5"/><circle cx="138" cy="70" r="5.5"/>
+        <circle cx="152" cy="72" r="5.5"/><circle cx="47" cy="64" r="5"/><circle cx="75" cy="63" r="5"/><circle cx="103" cy="64" r="5"/>
+        <circle cx="131" cy="63" r="5"/>
+      </g>
+      <path d="M0,104 Q16,100 32,104 T64,104 T96,104 T128,104 T160,104 T192,104 T224,104 T256,104 T288,104 T320,104" stroke="#9fd0ea" stroke-width="2" fill="none"/>
+    </svg>
+    <div class="text">
+      <h2>Record: nearly 2,000 migrants reach Canary Islands in a day</h2>
+    </div>
+  </section>
+
+  <!-- Senegal AFCON -->
+  <section class="story sport">
+    <div class="tag">SPORT · SENEGAL / MOROCCO</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="320" height="118" fill="#fbf0dc"/>
+      <!-- Senegal flag -->
+      <g transform="translate(18,26)">
+        <rect width="26" height="60" fill="#00853f"/><rect x="26" width="26" height="60" fill="#fdef42"/><rect x="52" width="26" height="60" fill="#e31b23"/>
+        <use href="#star" transform="translate(39,30) scale(9)" fill="#00853f"/>
+      </g>
+      <!-- trophy -->
+      <g fill="#e2a72e" stroke="#9a6b10" stroke-width="2">
+        <path d="M134,14 L186,14 L182,52 Q160,70 138,52 Z"/>
+        <path d="M134,20 Q112,22 118,40 Q124,52 138,50" fill="none" stroke-width="6"/>
+        <path d="M186,20 Q208,22 202,40 Q196,52 182,50" fill="none" stroke-width="6"/>
+        <rect x="153" y="64" width="14" height="20"/>
+        <rect x="138" y="84" width="44" height="12" rx="2"/>
+        <rect x="130" y="96" width="60" height="12" rx="2" fill="#5a3418" stroke="#3a2210"/>
+      </g>
+      <!-- scales of justice -->
+      <g stroke="#5b3a8c" stroke-width="4" fill="none" stroke-linecap="round">
+        <path d="M262,20 L262,96 M240,96 L284,96 M234,34 L290,34"/>
+        <path d="M234,34 L224,64 L244,64 Z M290,34 L280,64 L300,64 Z"/>
+      </g>
+    </svg>
+    <div class="text">
+      <h2>Sport court hands Senegal back its Africa Cup title</h2>
+      <p>CAS overturns award to Morocco; 1-0 final win restored</p>
+    </div>
+  </section>
+
+  <!-- Venezuela debt -->
+  <section class="story econ">
+    <div class="tag">ECONOMY · VENEZUELA</div>
+    <svg viewBox="0 0 320 118" preserveAspectRatio="xMidYMid slice">
+      <rect width="320" height="118" fill="#e3f1e8"/>
+      <!-- Venezuela flag -->
+      <g transform="translate(18,26)">
+        <rect width="78" height="20" fill="#f4c300"/><rect y="20" width="78" height="20" fill="#00247d"/><rect y="40" width="78" height="20" fill="#cf142b"/>
+        <g fill="#fff"><circle cx="21" cy="34" r="2"/><circle cx="27" cy="28" r="2"/><circle cx="34" cy="25" r="2"/><circle cx="44" cy="25" r="2"/><circle cx="51" cy="28" r="2"/><circle cx="57" cy="34" r="2"/></g>
+      </g>
+      <!-- oil barrel -->
+      <g transform="translate(118,30)">
+        <rect width="44" height="66" rx="6" fill="#3a3f47"/>
+        <rect y="16" width="44" height="5" fill="#59606b"/><rect y="44" width="44" height="5" fill="#59606b"/>
+        <ellipse cx="22" cy="2" rx="22" ry="5" fill="#59606b"/>
+      </g>
+      <!-- debt stack climbing -->
+      <g fill="#1d7a4a">
+        <rect x="190" y="84" width="22" height="24"/><rect x="218" y="66" width="22" height="42"/>
+        <rect x="246" y="44" width="22" height="64"/><rect x="274" y="18" width="22" height="90"/>
+      </g>
+      <text x="243" y="19" text-anchor="middle" font-size="16" font-weight="700" fill="#b3261e">$237.5bn</text>
+    </svg>
+    <div class="text">
+      <h2>Venezuela reveals $237.5bn debt before restructuring</h2>
+      <p>About 242% of GDP; $110bn is defaulted bonds and interest</p>
+    </div>
+  </section>
+
+</main>
+
+<div class="ticker"><b>ALSO ON 24 NOV</b><span>Malaysia to send 6,803 back to Myanmar · Hasina's camp says she will return to Bangladesh on 16 Dec · UNICEF: 1,144 children killed or hurt in Ukraine this year</span></div>
+<footer>Events of 24 November 2026 (any time zone) as reported by news agencies · contested claims are attributed</footer>
+</body>
+</html>
